@@ -1,0 +1,69 @@
+.hidden {
+  display: none;
+}
+
+
+.list-group {
+    display : none;
+  }
+
+.show {
+    display: block;
+}
+
+#screen {
+  margin: 20%;
+  
+  align-items: center;
+}
+#login-form, #greeting, #clock, #todo-list, #quote, #weather {
+  color: white;
+  font-weight: bolder;
+}
+#login-form {
+margin-bottom: 70px;
+}
+#greeting {
+  margin-bottom: 70px;
+}
+#clock {
+  margin-bottom: 30px;
+}
+#todo-list {
+  margin-bottom: 30px;
+}
+
+button {
+  margin-left: 10px;
+  border: none;
+  opacity: 0.5;
+}
+#quote {
+  font-size: larger;
+  margin-bottom: 30px;
+}
+#weather {
+
+
+}
+@keyframes fadeout {
+  0% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.7;
+  }
+
+}
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  animation: fadeout 10s infinite;
+}

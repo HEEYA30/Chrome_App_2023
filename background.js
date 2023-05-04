@@ -8,12 +8,6 @@ document.body.appendChild(bgImage);
 
 
 
-
-// createElement를 써서 html에 파일이 만들어졌기 때문에 굳이 console.log안해도 ok 
-// 아니 애초 console탭에 log해도 웹엔 안 보임
-// prepend 레이어맨앞 append 레이어맨뒤
-
-
 // linear-gradient : 선형 그러데이션을 만들어주는 CSS 함수입니다. 참고 자료
 // Math.floor() : 주어진 숫자의 소수점 이하를 내림해서 반환하는 함수입니다. 참고 자료
 // Math.random() : 0에서 1보다 작은 범위의 난수를 반환하는 함수입니다. 참고 자료
